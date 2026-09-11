@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Acoustic Canvas: Phonology of the Quran</title>
+    <style>
+        :root {
+            --primary-color: #0f172a;
+            --accent-color: #d97706;
+            --bg-color: #f8fafc;
+            --text-color: #334155;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 4px solid var(--accent-color);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 300;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #cbd5e1;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 4rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-left: 4px solid var(--accent-color);
+            padding-left: 1rem;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 1.5rem;
+        }
+
+        video, audio, img {
+            width: 100%;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        th {
+            background-color: #f1f5f9;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .arabic {
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            font-size: 1.5rem;
+            direction: rtl;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>The Acoustic Canvas of the Quran</h1>
+        <p>Exploring the intersection of Tajweed phonology, spatial semantics, and aerodynamic realities in the Quranic text.</p>
+    </header>
+
+    <div class="container">
+        
+        <section>
+            <h2>Project Overview</h2>
+            <p>This project investigates the phonetic durations of Quranic recitation (Tajweed rules such as <em>Madd</em> and <em>Qalqalah</em>) not merely as musical ornaments, but as precise acoustic simulators of physical, psychological, and spatial realities. By applying substitution tests and analyzing phonetic waveforms, we demonstrate how the structural syntax of the audio mirrors the physical mechanics of the subjects described.</p>
+        </section>
+
+        <section>
+            <h2>I. Aerodynamic Suspension vs. Muscular Contraction</h2>
+            <p>An analysis of Surah Al-Mulk (67:19): <span class="arabic">أَوَلَمْ يَرَوْا إِلَى الطَّيْرِ فَوْقَهُمْ صَافَّاتٍ وَيَقْبِضْنَ</span></p>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Physical Flight Mechanics</h3>
+                    <video id="eagleVideo" controls muted loop style="cursor: pointer;">
+                        <source src="eagle fly 1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Observation of a soaring eagle reveals a natural disproportion in flight phases to conserve energy.</p>
+                    <table>
+                        <tr>
+                            <th>Action State</th>
+                            <th>Time (sec)</th>
+                        </tr>
+                        <tr>
+                            <td>Gliding / Wings Extended</td>
+                            <td>9.0s</td>
+                        </tr>
+                        <tr>
+                            <td>Flapping / Wings Contracted</td>
+                            <td>3.0s</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="card">
+                    <h3>Phonetic Audio Waveform</h3>
+                    <audio controls loop>
+                        <source src="67-19.mp4" type="audio/mp4">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p>Husari's recitation waveform perfectly maps to the physical flight ratio.</p>
+                    <table>
+                        <tr>
+                            <th>Word (Tajweed Rule)</th>
+                            <th>Time (sec)</th>
+                        </tr>
+                        <tr>
+                            <td><span class="arabic">صَافَّاتٍ</span> (Madd Lazim - 6 Beats)</td>
+                            <td>4.7s</td>
+                        </tr>
+                        <tr>
+                            <td><span class="arabic">يَقْبِضْنَ</span> (Qalqalah - No Madd)</td>
+                            <td>2.2s</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>II. The Data Correlation</h2>
+            <div class="card">
+                <p>The visual analysis of the eagle's flight confirms a <span class="highlight">3:1 ratio</span> of gliding to flapping. The acoustic waveform of the recitation mimics this exact biological reality. The <strong>Madd Lazim</strong> (6-beat elongation) in <em>Saffat</em> forces the reciter to suspend their vocal cords, replicating aerodynamic glide. Conversely, the absence of elongation and the use of the bouncing <strong>Qalqalah</strong> in <em>Yaqbidna</em> forces a short, rapid staccato articulation, replicating sudden muscular wing-beats.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>III. Expanding the Phonetic Framework</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Spatial Distance</h3>
+                    <p><strong>Rule:</strong> Madd Munfasil (Detached Elongation)</p>
+                    <p><strong>Example:</strong> <span class="arabic">إِنَّا أَنزَلْنَاهُ</span></p>
+                    <p>Phonetically bridging the gap between two words to illustrate immense spatial distance (heavens to earth) or psychological boundaries (absolute rejection in <em>La A'budu</em>).</p>
+                </div>
+                <div class="card">
+                    <h3>Absolute Abundance</h3>
+                    <p><strong>Rule:</strong> Madd Muttasil (Attached Elongation)</p>
+                    <p><strong>Example:</strong> <span class="arabic">عَطَاءً غَيْرَ مَجْذُوذٍ</span></p>
+                    <p>Expanding the vowel within a single word to psychologically simulate unending flow, infinite capacity (<em>Khaza'in</em>), and ultimate reward.</p>
+                </div>
+                <div class="card">
+                    <h3>Typographical Friction</h3>
+                    <p><strong>Rule:</strong> Silent Added Alif (Uthmani Script)</p>
+                    <p><strong>Example:</strong> <span class="arabic">لَأَا۟ذْبَحَنَّهُ</span></p>
+                    <p>The addition of an unpronounced Alif acts as a visual "brake," indicating an obstacle that will prevent the Prophet Solomon from executing his threat of slaughter.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        const eagleVideo = document.getElementById('eagleVideo');
+        
+        eagleVideo.addEventListener('click', function() {
+            if (this.paused) {
+                this.play();
+            } else {
+                this.pause();
+            }
+        });
+    </script>
+</body>
+</html>
