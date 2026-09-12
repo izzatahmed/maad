@@ -112,6 +112,21 @@
             font-weight: bold;
             color: var(--primary-color);
         }
+        .lang-switch {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .lang-switch:hover {
+            background-color: var(--accent-color);
+        }
     </style>
 </head>
 <body>
@@ -122,6 +137,7 @@
     </header>
 
     <div class="container">
+        <a href="arabic.html" class="lang-switch">🌐 العربية</a>
         
         <section>
             <h2>Project Overview</h2>
